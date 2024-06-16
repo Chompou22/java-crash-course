@@ -1,0 +1,23 @@
+Mutable Strings:
+
+Definition: Can be modified after creation.
+Example: StringBuilder and StringBuffer in Java.
+Advantages: Efficient for frequent modifications.
+Disadvantages: Not thread-safe, potential for unexpected changes.
+Immutable Strings:
+
+Definition: Cannot be changed after creation.
+Example: Java's String class.
+Advantages: Thread-safe, ensures content integrity.
+Disadvantages: Less efficient for frequent modifications, new object creation.
+Choosing:
+
+Use Mutable Strings When:
+
+Frequent dynamic modifications are needed.
+Efficiency is crucial.
+Use Immutable Strings When:
+
+Thread safety is essential.
+String content should remain constant.
+Understanding trade-offs helps in making informed decisions based on application needs.

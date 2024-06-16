@@ -1,0 +1,7 @@
+Both methods achieve the same goal, but they have some differences:
+
+BufferedReader is generally preferred for reading input character streams because it's more efficient, especially for reading large amounts of text.
+Scanner is more convenient for parsing input of primitive types and strings using regular expressions.
+BufferedReader requires handling IOException, whereas Scanner does not.
+Scanner has more methods for parsing input, such as nextInt(), nextDouble(), etc., which can be useful when you need to read specific types of input.
+Choose the one that best suits your needs based on the requirements of your application.

@@ -1,0 +1,9 @@
+This code demonstrates various concepts of the Stream API:
+
+Stream Creation: Creating streams from lists.
+Intermediate Operations: Filtering, mapping, sorting, and removing duplicates.
+Terminal Operations: Collecting elements into a new list, reducing to a single value, counting elements.
+Reduction Operations: Finding the maximum length string.
+Parallel Streams: Processing streams in parallel for improved performance.
+Lazy Evaluation: Showing that intermediate operations are lazy and processing occurs only when terminal operations are invoked.
+Each section of the code corresponds to a specific concept, providing a visual representation of how to use the Stream API in Java.

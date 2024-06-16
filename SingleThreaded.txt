@@ -1,0 +1,22 @@
+Single-Threaded Execution:
+
+Definition: Single-threaded refers to an execution model where a program runs on a sole thread of execution.
+
+Characteristics:
+
+Sequential Execution: Tasks are completed one after another in a linear order.
+Synchronous Nature: Tasks are synchronous, requiring completion before the next one begins.
+Limited Concurrency: Only one thread of execution, restricting simultaneous task handling.
+Blocking Operations: Blocking operations can cause the entire program to wait until completion.
+Multi-Threaded Execution:
+
+Definition: Multi-threaded execution involves multiple threads running concurrently, enabling parallel processing.
+
+Benefits:
+
+Parallel Processing: Tasks can be performed simultaneously, enhancing performance.
+Improved Responsiveness: Useful for handling background tasks and enhancing user interfaces.
+Considerations:
+
+Design and optimization are crucial to manage concurrent operations and avoid issues like race conditions.
+Understanding whether an application is single-threaded or multi-threaded is vital for effective program design and optimization, particularly in managing concurrency and ensuring responsiveness.

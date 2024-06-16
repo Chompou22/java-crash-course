@@ -1,0 +1,28 @@
+StringBuffer:
+
+Mutability: Mutable (content can be changed).
+Thread Safety: Thread-safe (synchronized methods).
+Performance: Slower compared to StringBuilder due to synchronization.
+Usage: Suitable in multi-threaded environments where thread safety is critical.
+StringBuilder:
+
+Mutability: Mutable (content can be changed).
+Thread Safety: Not thread-safe.
+Performance: Faster compared to StringBuffer due to lack of synchronization.
+Usage: Efficient for single-threaded scenarios or when thread safety is managed externally.
+
+Common Characteristics:
+Both StringBuffer and StringBuilder are classes in Java's java.lang package.
+Both are used for dynamic string manipulation.
+
+Choosing Between Them:
+
+Use StringBuffer When:
+
+Thread safety is a priority in a multi-threaded environment.
+Synchronization is needed to prevent concurrent modifications.
+Use StringBuilder When:
+
+Thread safety is not a concern (single-threaded scenario).
+Performance is crucial, and external synchronization can be managed.
+Understanding the trade-offs helps in selecting the appropriate class based on the specific requirements of your program.

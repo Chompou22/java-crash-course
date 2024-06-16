@@ -1,0 +1,15 @@
+Sure! Here's a simplified summary of the types of interfaces in Java:
+
+Normal Interface: An interface with methods to define behavior for classes.
+
+Functional Interface: An interface with only one method, used for lambda expressions.
+
+Marker Interface: An interface with no methods, used to mark classes for special treatment.
+
+SAM Interface: Another term for a functional interface, emphasizing the single method.
+
+Default Interface: An interface with default method implementations for backward compatibility.
+
+Static Interface: An interface with static methods that can be called without an instance.
+
+These types of interfaces serve different purposes in Java programming, providing flexibility and enabling various programming paradigms.

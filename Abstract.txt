@@ -1,0 +1,23 @@
+Certainly! Here's a concise summary of the abstract keyword in Java:
+
+Abstract Classes:
+
+Abstract classes are declared with the abstract keyword.
+They cannot be instantiated directly.
+May contain both abstract (without implementation) and concrete (with implementation) methods.
+Can have fields, constructors, and regular methods.
+Provide a common interface for a group of related classes.
+Abstract Methods:
+
+Abstract methods are declared with the abstract keyword and have no implementation.
+Must be declared within an abstract class.
+Subclasses must provide concrete implementations for all abstract methods unless they are also declared as abstract.
+Usage:
+
+Abstract classes are used to define common behavior and characteristics for a group of related classes.
+They provide a way to achieve abstraction and polymorphism in Java.
+Cannot Be Instantiated:
+
+Abstract classes cannot be instantiated directly using the new keyword.
+They can only be extended by other classes, which must provide concrete implementations for abstract methods.
+In summary, the abstract keyword allows for the creation of abstract classes and methods in Java, enabling abstraction, defining common interfaces, and enforcing concrete implementations in subclasses.

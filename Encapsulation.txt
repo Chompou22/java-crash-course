@@ -1,0 +1,10 @@
+Certainly! Encapsulation in Java is about bundling data and methods into a class and controlling access to them:
+
+Class: Blueprint for objects.
+Private Variables: Data is often private, accessible only within the class.
+Public Methods: Interface for external interaction.
+Getters: Public methods to access private data.
+Setters: Public methods to modify private data.
+Benefits: Security, flexibility, and organization.
+
+In essence, encapsulation ensures a clean and secure structure for managing data and functionality in Java classes.

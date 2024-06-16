@@ -1,0 +1,27 @@
+In Java, the Collection API provides a set of interfaces and classes to represent groups of objects. Collections provide a way to manipulate groups of objects, such as lists, sets, and maps. The primary interfaces in the Java Collection API are:
+
+Collection: It is the root interface in the collection hierarchy. It represents a group of objects, known as elements.
+
+List: It represents an ordered collection of elements. It allows duplicate elements and provides methods to access elements by their index.
+
+Set: It represents a collection of unique elements. It does not allow duplicate elements.
+
+Queue: It represents a collection used to hold multiple elements before processing. It typically follows the FIFO (First In, First Out) order.
+
+Map: It represents a collection of key-value pairs where each key is associated with a single value. Keys in a map must be unique.
+
+Here's a brief overview of some important classes and interfaces in the Java Collection API:
+
+ArrayList: It implements the List interface using a dynamic array. It allows fast random access but slower insertion and deletion.
+
+LinkedList: It implements the List interface using a doubly-linked list. It provides efficient insertion and deletion but slower random access.
+
+HashSet: It implements the Set interface using a hash table. It does not guarantee the order of elements.
+
+TreeSet: It implements the SortedSet interface using a tree structure. It stores elements in sorted order.
+
+HashMap: It implements the Map interface using a hash table. It allows null keys and values and does not guarantee the order of elements.
+
+TreeMap: It implements the SortedMap interface using a tree structure. It stores key-value pairs in sorted order of keys.
+
+Collections: It is a utility class that provides various methods to operate on collections, such as sorting, searching, and synchronization.

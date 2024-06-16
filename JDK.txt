@@ -1,0 +1,33 @@
+Sure, let's break down JDK, JRE, and JVM in simple terms:
+
+JDK (Java Development Kit):
+
+Purpose: JDK is a software development kit used to develop Java applications.
+Components:
+Compiler: Converts Java source code into bytecode.
+Java API Libraries: A collection of pre-compiled classes and methods that developers can use.
+Debugger: Helps identify and fix errors in the code.
+Other tools: Various utilities for development, documentation, and testing.
+JRE (Java Runtime Environment):
+
+Purpose: JRE is an environment that allows Java applications to run on your computer.
+Components:
+Java Virtual Machine (JVM): Executes Java bytecode.
+Java API Libraries: Required for the execution of Java applications.
+Other runtime libraries: Support files necessary for running Java applications.
+JVM (Java Virtual Machine):
+
+Purpose: JVM is a virtual machine that executes Java bytecode.
+Functionality:
+Bytecode Execution: Translates and executes Java bytecode line by line.
+Memory Management: Manages memory allocation and garbage collection.
+Platform Independence: Provides a platform-independent execution environment for Java applications.
+In a Nutshell:
+
+Development Phase (JDK): Developers use the JDK during the development phase to write, compile, and debug Java code. It includes everything needed for Java development.
+
+Execution Phase (JRE): End-users need the JRE to run Java applications. It includes the JVM and necessary runtime libraries.
+
+Runtime Execution (JVM): JVM is the engine that executes Java bytecode, making Java applications platform-independent.
+
+In summary, JDK is for development, JRE is for running Java applications, and JVM is the runtime engine that executes Java bytecode.

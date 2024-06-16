@@ -1,0 +1,67 @@
+Java Interface Summary:
+Definition:
+
+An interface in Java is a blueprint for a class.
+It declares a set of method signatures without providing any implementation.
+Keyword:
+
+Declared using the interface keyword.
+java
+Copy code
+interface MyInterface {
+    void myMethod();  // Method signature without implementation
+}
+No Implementation:
+
+Interfaces do not contain any code for methods; they only declare what methods should exist.
+Implementation by Classes:
+
+Classes that implement an interface must provide the actual code for all the methods declared in that interface.
+java
+Copy code
+class MyClass implements MyInterface {
+    @Override
+    public void myMethod() {
+        // Implementation of myMethod
+    }
+}
+Multiple Interfaces:
+
+A class can implement multiple interfaces.
+java
+Copy code
+class MyOtherClass implements Interface1, Interface2 {
+    // Implementation of methods from Interface1 and Interface2
+}
+Polymorphism:
+
+Interfaces are used for achieving polymorphism, allowing objects of different classes to be treated uniformly if they implement the same interface.
+Default Methods (Java 8+):
+
+Interfaces can have default methods with a default implementation.
+java
+Copy code
+interface MyInterface {
+    default void defaultMethod() {
+        // Default implementation
+    }
+}
+Static Methods (Java 8+):
+
+Interfaces can have static methods.
+java
+Copy code
+interface MyInterface {
+    static void staticMethod() {
+        // Static method
+    }
+}
+Constants:
+
+Interfaces can contain constant variables.
+java
+Copy code
+interface Constants {
+    int MAX_VALUE = 100;  // Constant variable
+}
+In summary, interfaces provide a way to define a common set of method signatures, promoting abstraction, encapsulation, and polymorphism in Java. Classes implement interfaces to fulfill the contract defined by the interface, and interfaces can include default methods, static methods, and constant variables.

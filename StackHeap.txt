@@ -1,0 +1,44 @@
+In computer memory management,
+the terms "stack" and "heap" refer to two different regions used for storing data during the execution of a program. 
+They serve distinct purposes and have different characteristics.
+
+1. Stack:
+
+Purpose:
+The stack is primarily used for the execution of program code.
+It keeps track of method calls and local variables during the program's execution.
+Characteristics:
+Memory allocation and deallocation on the stack follow a Last In, First Out (LIFO) principle.
+It is a fast and efficient memory region for managing local variables and method calls.
+Memory allocated on the stack is automatically deallocated when a method call is completed.
+Limited in size, and memory is managed by the compiler or runtime system.
+2. Heap:
+
+Purpose:
+The heap is used for dynamic memory allocation during runtime.
+It is used to store objects and data structures that have an unpredictable or variable size.
+Characteristics:
+Memory allocation and deallocation on the heap are typically managed by the programmer (manual memory management) or a garbage collector in languages like Java or C#.
+Memory on the heap can be allocated and deallocated in any order, allowing for more flexibility.
+It is larger in size compared to the stack and can grow and shrink dynamically during program execution.
+Objects stored in the heap persist beyond the scope of individual method calls.
+Comparison:
+
+Access Speed:
+
+The stack is faster than the heap because memory allocation and deallocation are simple and follow a strict order.
+The heap is generally slower due to dynamic memory management and the potential for fragmentation.
+Lifetime:
+
+Memory on the stack is automatically deallocated when the method call is completed.
+Memory on the heap must be explicitly managed or is handled by a garbage collector in some programming languages.
+Size:
+
+The stack is limited in size and is usually smaller.
+The heap is larger and more flexible, suitable for dynamic allocation of memory.
+Use Cases:
+
+Use the stack for managing local variables, method calls, and control flow.
+Use the heap for dynamic memory allocation, storing objects with variable lifetimes and sizes.
+Understanding the differences between the stack and heap is essential for efficient memory management and designing robust software applications.
+The choice of where to allocate memory depends on the specific needs and characteristics of the data being managed.
